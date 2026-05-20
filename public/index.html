@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>LiveChat — CodTech Task 2</title>
+  <title>Central perk</title>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
-  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -319,8 +319,8 @@
 <!-- LOGIN -->
 <div id="login-screen">
   <div class="login-card">
-    <div class="login-logo">💬 LiveChat</div>
-    <p class="login-sub">CodTech Full Stack Internship · Task 2</p>
+    <div class="login-logo">Central perk -Coffee House </div>
+    <p class="login-sub">F.R.I.E.N.D.S</p>
     <input type="text" id="username-input" placeholder="Enter your username..." maxlength="20" autocomplete="off"/>
     <button class="btn-join" onclick="joinChat()">Join Chat →</button>
   </div>
@@ -366,7 +366,7 @@
 </div>
 
 <script>
-  const socket = io();
+  const socket = io('https://codtech-chat-app-1.onrender.com', { transports: ['websocket', 'polling'] });
   let myUsername = '';
   let typingTimer;
   let isTyping = false;
