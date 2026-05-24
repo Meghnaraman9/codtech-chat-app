@@ -1,3 +1,9 @@
+Company name: CODTECH IT SOLUTIONS 
+Name: Dakoju Meghana 
+Intern ID: CTIS8959
+Domain: Full stack web development
+Duration: 4 weeks
+Mentor: Neels Santhosh Kumar
 # 💬 LiveChat — CodTech Internship Task 2
 
 A real-time chat application built with **Node.js**, **Express**, and **Socket.io**.
@@ -64,4 +70,4 @@ git push -u origin main
    - **Start Command:** `npm start`
 5. Click **Deploy** — you'll get a live URL!
 
-> ⚠️ GitHub Pages does NOT support Node.js backends. Use Render, Railway, or Glitch instead.
+<img width="1920" height="1080" alt="Screenshot (668)" src="https://github.com/user-attachments/assets/78a842f4-b2b4-4fb6-8a31-7b2d699f9be0" />
